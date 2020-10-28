@@ -35,12 +35,12 @@ __interrupt void Timer_A (void)
 {
   if (switchFlag == 0x01)                    //If switch pressed
   {
-    if (counter == 60) {                     //if 30 seconds passed
+    if (counter < 60) {                      //if less than 30 secs passed
+      counter++;                             //increase counter by 1
+    } else {
       switchFlag = 0x00;                     // Clear switch flag
       counter = 0;                           // Reset counter
       P1OUT |= BIT0;                         // LED ON
-    } else {
-      counter++;                             //increase counter by 1
     }
   }
   else                                      //If Switch not pressed
