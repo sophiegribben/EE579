@@ -2154,6 +2154,6 @@
         </settings>
     </configuration>
     <file>
-        <name>$PROJ_DIR$\switchdebounce.c</name>
+        <name>$PROJ_DIR$\TimerAtoggleP1_CCR0upModeISR.c</name>
     </file>
 </project>
