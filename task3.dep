@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2478986561</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\ADC10example.r43</file>
+            <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\task1.r43</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\task1.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\task3.pbd</file>
+            <file>$PROJ_DIR$\ColourCycle.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\task1.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\task3.ulp</file>
+            <file>$PROJ_DIR$\Debug\Exe\task3.d43</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC10example.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\List\task3.map</file>
+            <file>$PROJ_DIR$\ADC10example.c</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\ColourCycle.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ColourCycle.r43</file>
+            <file>$PROJ_DIR$\task2.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\task3.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\task3.r43</file>
+            <file>$PROJ_DIR$\task3.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\task1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 2 9 1</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 1 9 2 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ColourCycle.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 2 9 1</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 1 9 2 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\task3.d43</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 16 21 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ADC10example.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 2 9 1</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 1 9 2 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 11 14</file>
+                </tool>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\task3.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 2 9 1</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 1 9 2 13</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspace>
     <project>
+        <path>$WS_DIR$\basicAssembler.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\task2.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\task3.ewp</path>
     </project>
     <batchBuild />
 </workspace>

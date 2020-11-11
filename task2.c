@@ -20,7 +20,7 @@ int main(void)
   P1REN |= BIT3;                            // Enable it 
   P1IES |= BIT3;                            // P1.3 high to low edge
   P1IFG &= ~BIT3;                           // P1.3 IGF cleared
-  P1IE |= BIT3;                             // P1.3 Interupt enabled
+  P1IE |= BIT3;                             // P1.3 Interupt enabledcan 
   
   counter = 0;                              // initialise counter
   switchFlag = 0x00;                        // intitialise flag 
